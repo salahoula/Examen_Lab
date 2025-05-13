@@ -8,7 +8,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:run": "cypress run --spec cypress/e2e/books.cy.js"
+    "scripts": {
+      "cypress:open": "cypress open",
+      "cypress:run": "cypress run"
+    }
   },
   "devDependencies": {
     "cypress": "^14.3.3"

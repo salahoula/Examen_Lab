@@ -9,7 +9,8 @@ import org.springframework.cache.annotation.EnableCaching;
 public class BookManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookManagementApplication.class, args);
+		SpringApplication.
+				run(BookManagementApplication.class, args);
 	}
 
 }
